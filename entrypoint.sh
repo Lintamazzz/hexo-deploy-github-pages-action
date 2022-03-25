@@ -40,6 +40,8 @@ apt-get install -y git && \
 # Directs the action to the the Github workspace.
 cd "${GITHUB_WORKSPACE}"
 
+
+npm cache clear --force
 echo "npm install ..."
 npm install
 
